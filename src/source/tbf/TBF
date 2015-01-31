@@ -1,0 +1,13 @@
+Robot r = new Robot();
+		
+		r.keyPress(KeyEvent.VK_SPACE);r.delay(5);r.keyRelease(KeyEvent.VK_SPACE); //PULA
+		
+		r.keyPress(KeyEvent.VK_CONTROL);r.delay(15);r.keyRelease(KeyEvent.VK_CONTROL); //ATACA
+		r.keyPress(KeyEvent.VK_SHIFT);r.delay(5);r.keyRelease(KeyEvent.VK_SHIFT);//SHIFT (5 SEC)
+		r.delay(260);//WAIT 260
+		r.keyPress(KeyEvent.VK_CONTROL);r.delay(15);r.keyRelease(KeyEvent.VK_CONTROL); //ATACA
+		r.keyPress(KeyEvent.VK_SHIFT);r.delay(5);r.keyRelease(KeyEvent.VK_SHIFT);//SHIFT (5 SEC)
+		r.delay(260);//WAIT 260
+		r.keyPress(KeyEvent.VK_CONTROL);r.delay(15);r.keyRelease(KeyEvent.VK_CONTROL); //ATACA
+		r.keyPress(KeyEvent.VK_SHIFT);r.delay(5);r.keyRelease(KeyEvent.VK_SHIFT);//SHIFT (5 SEC)
+		r.delay(260);//WAIT 260
